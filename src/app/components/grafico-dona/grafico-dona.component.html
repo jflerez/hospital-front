@@ -1,0 +1,12 @@
+<h4 class="text-center">{{grafico['leyenda']}}</h4>
+<div>
+  <div>
+    <div class="chart">
+      <canvas baseChart
+        [data]="grafico['data']"
+        [labels]="grafico['labels']"
+        [chartType]="grafico['type']">
+      </canvas>
+    </div>
+  </div>
+</div>
